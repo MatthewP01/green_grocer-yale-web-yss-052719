@@ -81,7 +81,7 @@ def checkout(cart, coupons)
     cost += prices[:price] * prices[:count]
   end
 
-  if co_price >= 100
+  if cost >= 100
     new_price = (co_price * 0.9).round(2)
     return new_price
   else
