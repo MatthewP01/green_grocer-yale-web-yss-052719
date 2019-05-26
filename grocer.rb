@@ -80,6 +80,7 @@ def checkout(cart, coupons)
     co_price += prices[:price] * prices[:count]
   end
 
-  if co_price >= 100 ? total * 0.9 : total
+  if co_price >= 100
+    new_price = 
 
 end
