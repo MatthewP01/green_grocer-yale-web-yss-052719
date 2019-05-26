@@ -84,3 +84,11 @@ end
 #   # total > 100 ? total * 0.9 : total
 #
 # end
+def checkout(cart: [], coupons: [])
+  # code here
+  cart = consolidate_cart(cart: cart)
+  cart = apply_coupons(cart: cart, coupons: coupons)
+  cart = apply_clearance(cart: cart)
+  final = nil
+
+end
