@@ -75,7 +75,7 @@ def checkout(cart, coupons)
   check_out_two = apply_coupons(cart, coupons)
   check_out_final = apply_clearance(check_out_two)
 
-  cart_price = 0
+  co_price = 0
   cart2.each do |name, price_hash|
     total += price_hash[:price] * price_hash[:count]
   end
