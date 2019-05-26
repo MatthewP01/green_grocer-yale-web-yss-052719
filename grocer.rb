@@ -85,4 +85,5 @@ def checkout(cart, coupons)
     return new_price
   else
     return co_price
+  end
 end
