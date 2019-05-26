@@ -23,8 +23,8 @@ def apply_coupons(cart, coupons)
     coupon.each do |i, j|
       if x == i
         if y[:count] >= i[:num]
-          
-end
+      end
+
     end
   end
 
