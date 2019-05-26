@@ -28,6 +28,8 @@ def apply_coupons(cart, coupons)
           cart[x][:count] = cart[x][:count] - i[:num]
           if coupon_hash.include?(x + "W/COUPON")
             coupon_hash[x + "W/COUPON"][:count] += 1
+          else
+            
           end
         end
 
