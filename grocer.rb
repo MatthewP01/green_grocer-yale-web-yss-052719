@@ -29,7 +29,7 @@ def apply_coupons(cart, coupons)
           if coupon_hash.include?(x + "W/COUPON")
             coupon_hash[x + "W/COUPON"][:count] += 1
           else
-            
+            new_cart[grocery + " W/COUPON"] = {:price => coupon[:cost], :clearance => cart[grocery][:clearance], :count => 1}
           end
         end
 
