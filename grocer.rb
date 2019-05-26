@@ -78,6 +78,7 @@ def checkout(cart, coupons)
   co_price = []
   check_out_final.each do |item, prices|
     cost = prices[:price] * prices[:count]
+    co_price << 
   end
 
   if co_price >= 100
