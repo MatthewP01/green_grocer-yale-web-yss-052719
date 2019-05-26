@@ -6,7 +6,7 @@ def consolidate_cart(cart)
   cart.each do |items|
     # binding.pry
     items.each do |x, y|
-      if cart.include?(x)
+      if cart_hash.include?(x)
         cart_hash[x][:count] += 1
       else
         cart_hash[x] = y
