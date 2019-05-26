@@ -31,10 +31,10 @@ def apply_coupons(cart, coupons)
         end
       end
     end
-    new_cart[x] = info
+    coupon_hash[x] = info
 
   end
-  new_cart
+  coupon_hash
 end
 # def apply_coupons(cart, coupons)
 #   # code here
