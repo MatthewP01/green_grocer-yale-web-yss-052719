@@ -81,6 +81,6 @@ def checkout(cart, coupons)
   end
 
   if co_price >= 100
-    new_price = 
+    new_price = co_price * 0.9
 
 end
