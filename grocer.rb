@@ -85,6 +85,6 @@ def checkout(cart, coupons)
     new_price = (cost * 0.9).round(2)
     return new_price
   else
-    return co_price
+    return cost
   end
 end
