@@ -24,7 +24,7 @@ def apply_coupons(cart, coupons)
     coupons.each do |i|
       if x == i[:item]
         if y[:count] >= i[:num]
-        cart[x][:count] = cart[x][:count] - i[:num]
+          cart[x][:count] = cart[x][:count] - i[:num]
         if coupon_hash[x + " W/COUPON"]
           coupon_hash[x + " W/COUPON"][:count] += 1
         else
