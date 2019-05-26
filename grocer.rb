@@ -20,7 +20,10 @@ end
 def apply_coupons(cart, coupons)
   cart.each do |x, y|
     coupon.each do |i, j|
+      binding.pry
+    end
   end
+
 end
 
 def apply_clearance(cart)
