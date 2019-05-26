@@ -63,6 +63,9 @@ def apply_clearance(cart)
       y.collect do |x|
         if x == :price
           self * 0.8
+        end
+      end
+    end
   end
 end
 
