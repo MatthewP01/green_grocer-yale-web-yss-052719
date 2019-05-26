@@ -35,6 +35,7 @@ def apply_coupons(cart, coupons)
         end
       end
     end
+    coupon_hash[grocery] = info
   end
   return coupon_hash
 end
