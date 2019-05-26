@@ -18,12 +18,14 @@ def consolidate_cart(cart)
 end
 
 def apply_coupons(cart, coupons)
+
+  coupon_hash = {}
   cart.each do |x, y|
     # binding.pry
     coupon.each do |i, j|
       if x == i
         if y[:count] >= i[:num]
-          
+          cart
       end
 
     end
