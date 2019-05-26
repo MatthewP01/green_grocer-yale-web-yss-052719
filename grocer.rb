@@ -21,7 +21,6 @@ def apply_coupons(cart, coupons)
 
   coupon_hash = {}
   cart.each do |x, y|
-    # binding.pry
     coupons.each do |i, j|
       if x == i
         if y[:count] >= i[:num]
