@@ -27,7 +27,7 @@ def apply_coupons(cart, coupons)
         if y[:count] >= i[:num]
           cart[x][:count] = cart[x][:count] - i[:num]
           if coupon_hash.include?(x + "W/COUPON")
-            
+            coupon_hash
         end
 
       end
