@@ -21,7 +21,7 @@ def apply_coupons(cart, coupons)
 
   coupon_hash = {}
   cart.each do |x, y|
-    coupons.each do |i, j|
+    coupons.each do |i|
       if x == i
         if y[:count] >= i[:num]
           cart[x][:count] = cart[x][:count] - i[:num]
