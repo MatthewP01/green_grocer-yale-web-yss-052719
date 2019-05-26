@@ -21,7 +21,7 @@ def apply_coupons(cart, coupons)
   cart.each do |x, y|
     coupon.each do |i, j|
       if x == i
-        if y >
+        if y > 
     end
   end
 
