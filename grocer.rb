@@ -70,7 +70,7 @@ end
 #   check_out_two = apply_coupons(check_out, coupons)
 #   check_out_final = apply_clearance(check_out_two)
 # end
-def checkout(items, coupons)
+def checkout(cart, coupons)
   cart = consolidate_cart(items)
   cart1 = apply_coupons(cart, coupons)
   cart2 = apply_clearance(cart1)
