@@ -37,6 +37,7 @@ def apply_coupons(cart, coupons)
       return coupon_hash
     end
   end
+  return coupon_hash
 end
 
 def apply_clearance(cart)
