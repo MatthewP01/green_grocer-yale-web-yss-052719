@@ -59,6 +59,7 @@ end
 
 def apply_clearance(cart)
   cart.each do |x, y|
+    
 end
 
 def checkout(cart, coupons)
