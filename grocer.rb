@@ -35,7 +35,7 @@ def apply_coupons(cart, coupons)
         end
       end
     end
-    coupon_hash[x] = info
+    coupon_hash[x] = y
   end
   return coupon_hash
 end
