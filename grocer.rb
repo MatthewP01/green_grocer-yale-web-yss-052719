@@ -31,6 +31,7 @@ def apply_coupons(cart, coupons)
             coupon_hash[grocery + " W/COUPON"] = {:price => coupon[:cost], :clearance => cart[grocery][:clearance], :count => 1}
           end
         end
+        end
       end
     return coupon_hash[x] = y
   end
