@@ -26,7 +26,9 @@ def apply_coupons(cart, coupons)
       if x == i
         if y[:count] >= i[:num]
           cart[x][:count] = cart[x][:count] - i[:num]
+        if
         end
+
       end
 
     end
