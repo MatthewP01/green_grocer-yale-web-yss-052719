@@ -19,7 +19,7 @@ end
 
 def apply_coupons(cart, coupons)
   cart.each do |x, y|
-    binding.pry
+    # binding.pry
     coupon.each do |i, j|
       if x == i
         if y[:count] >= i[:num]
