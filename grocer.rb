@@ -59,8 +59,8 @@ end
 
 def apply_clearance(cart)
   cart.each do |x, y|
-    if x[:clearance] == true
-      
+    if y[:clearance] == true
+      y[]
   end
 end
 
