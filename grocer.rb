@@ -63,8 +63,6 @@ def apply_clearance(cart)
       y[:price] = (y[:price]) * 0.8
     end
   end
-    end
-  end
 end
 
 def checkout(cart, coupons)
